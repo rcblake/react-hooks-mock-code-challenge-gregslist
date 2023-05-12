@@ -9,7 +9,7 @@ function Sort() {
     );
   };
 
-  const alpha = [...employees].sort((a, b) => (a.name > b.name ? 1 : -1));
+  //   const alpha = [...employees].sort((a, b) => (a.name > b.name ? 1 : -1));
 
   const alphaZedButton =
     sortStyle === "default" || sortStyle === "zed" ? "A -> Z" : "Z -> A";
