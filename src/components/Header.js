@@ -3,6 +3,7 @@ import Search from "./Search";
 import Sort from "./Sort";
 
 function Header({ handleSearchFilter }) {
+  // adding in a line for test
   return (
     <header>
       <h1>
